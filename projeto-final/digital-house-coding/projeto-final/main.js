@@ -14,6 +14,10 @@
      }
 
      if(opcao.value != 0 && nome.value!=""){
-       location.href=`playlist.html?id=${opcao.value}`;
+       if(opcao.value == 1 && nome.value!=""){
+           //colocar parametros da api para a playlist
+       }
+           
+           
        }
    });
