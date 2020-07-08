@@ -1,0 +1,45 @@
+{
+    "news": [{
+            "id": "27361",
+            "headline": "High School Musical completa dez anos: Relembre as músicas que marcaram uma geração",
+            "kicker": "Troy, Gabriella, Ryan, Sharpay, Chad e Taylor ficaram para sempre marcados na história da cultura pop",
+            "url": "https://www.vagalume.com.br/news/2016/01/10/high-school-musical-completa-dez-anos-relembre-as-musicas-que-marcaram-uma-geracao.html",
+            "inserted": "10-01-2016 14:00:00",
+            "modified": "08-01-2016 16:33:19",
+            "pic_src": "https://www.vagalume.com.br/high-school-musical/images/114071.jpg",
+            "pic_width": "700",
+            "pic_height": "359",
+            "pic_caption": "",
+            "tags": [
+                "high school musical",
+                "ashley tisdale",
+                "trilha sonora",
+                "vanessa hudgens",
+                "hsm"
+            ]
+        },
+        {
+            "id": "27408",
+            "headline": "Taylor Swift tem o Hot Spot mais clicado da semana!",
+            "kicker": "Destaque também para Fall Out Boy e Demi Lovato e Ellie Goulding!",
+            "url": "https://www.vagalume.com.br/news/2016/01/09/taylor-swift-tem-o-hot-spot-mais-clicado-da-semana6.html",
+            "inserted": "09-01-2016 12:00:00",
+            "modified": "08-01-2016 18:13:52",
+            "pic_src": "https://www.vagalume.com.br/taylor-swift/images/114011.jpg",
+            "pic_width": "570",
+            "pic_height": "315",
+            "pic_caption": "",
+            "tags": [
+                "taylor swift",
+                "hot spot",
+                "ellie goulding",
+                "jack antonoff",
+                "bleachers",
+                "jordan evans",
+                "fall out boym demi lovato",
+                "jaheim"
+            ]
+        },
+        ...
+    ]
+}
