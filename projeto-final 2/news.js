@@ -1,15 +1,17 @@
 const divResult = document.getElementById('divResult');
+const url = 'https://www.vagalume.com.br/';
 
-fetch('https://www.vagalume.com.br/news/index.js')
-    .then(async response => {
+fetch(url + 'news/index.js')
+    .then(async(response) => {
         return await response.json();
     })
-    .then(async response => {
+    .then(async(response) => {
         let resposta = await response.news;
-        resposta.forEach( element => {
+        console.log(resposta);
+        resposta.forEach((element) => {
             const resposta = `
                 <div>
-                    <img src="${element.images}">
+                    <img src="${url}${element.pic_src}">
                     <p>${element.headline}</p>
                     <p>${element.kicker}</p>
                     <p>${element.featured}</p>
@@ -17,6 +19,5 @@ fetch('https://www.vagalume.com.br/news/index.js')
                 </div>
             `;
             divResult.innerHTML += resposta;
-    })
-});
-
+        });
+    });
