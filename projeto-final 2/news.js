@@ -10,12 +10,13 @@ fetch(url + 'news/index.js')
         console.log(resposta);
         resposta.forEach((element) => {
             const resposta = `
-                <div>
-                    <img src="${url}${element.pic_src}">
-                    <p>${element.headline}</p>
-                    <p>${element.kicker}</p>
-                    <p>${element.featured}</p>
-                    <p>${element.url}</p>
+                <div class="card rounded mb-3 mr-2">
+                   <img src="${url}${element.pic_src}" class="card-img-top">
+                   <div class="card-body">
+                    <h5 class="card-title">${element.headline}</h5>
+                    <p class="card-text">${element.kicker}</p>
+                    <a href="${element.url}" class="btn btn-primary">${element.featured}</a>
+                </div>
                 </div>
             `;
             divResult.innerHTML += resposta;
