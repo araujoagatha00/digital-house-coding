@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Play your mood</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-novo.png" width="100px" height="100px" class="d-inline-block align-top" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="playlist.html">Playlists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="paragrafo">
+            <h2>Você conhece os benefícios da Música?</h2>
+            <p>Pressionar o botão “play” tem efeito poderoso. A música pode afetar sua vida positivamente e de maneira muito real.
+            </p>
+            <p>Seus benefícios comprovados são:</p>
+            <ul>
+                <li>A música alivia a ansiedade</li>
+                <li>Promove o bom humor</li>
+                <li>Ajuda a curar dores emocionais</li>
+                <li>Pode nos motivar quando malhamos</li>
+                <li>Pode melhorar nosso sono</li>
+                <li>Potencializa nosso desempenho</li>
+            </ul>
+            <p>E agora, você está pronto para colocar os fones de ouvido?</p>
+
+        </div>
+
+        <div class="playlist">
+            <h4>Escolha sua playlist agora</h4>
+            <form>
+                <div class="form-row">
+                    <div class="col-auto">
+                        <input type="text" class="form-control" placeholder="Nome">
+                    </div>
+                    <div class="col-auto">
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+              <option selected value="0"> Como você tá?</option>
+              <option value="1">Feliz Demais</option>
+              <option value="2">Empoderada</option>
+              <option value="3">Só Quero Chorar</option>
+              <option value="4">Só Love Música BR</option>
+              <option value="5">Só Love Música Gringa</option>
+              <option value="6">Querendo Descer Até o Chão</option>
+              <option value="7">Quero Dormir</option>
+              <option value="8">Falta Muito Para o Carnaval?</option>
+              <option value="9">100% BR</option>
+              <option value="10">Rock, Bebê</option>
+            </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="btnPlaylist">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div id="divResult"></div>
+    </main>
+    <div class="footer">
+        <p class="text-center col-sm">Copyright © - Play Your Mood</p>
+        <p class="text-center col-sm">All rights reserved</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

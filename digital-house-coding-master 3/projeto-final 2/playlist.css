@@ -1,0 +1,173 @@
+/*PLAYLIST*/
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #ea907e!important;
+    
+}
+
+body {
+    background-image: url("img/HIGH_april-1.jpg");
+    background-size: 100%;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+}
+
+#nome {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+.nav-link {
+    color: white!important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.um {
+    display: flex;
+    text-align: center;
+    opacity: ;
+    border-radius: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25vh;
+    margin-bottom: 30vh;
+}
+
+.humor {
+    font-size: 16px;
+    color: red!important;
+    text-align: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none!important;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    line-height: 10px;
+    background-color: gainsboro;
+    padding: 2vh;
+}
+
+.text-center {
+    color: gray
+}
+
+div.container {
+    justify-content: center;
+    padding: -30px;
+}
+
+.row {
+    margin-top: 55vh;
+    margin-bottom: 0em;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aparecer {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+    background-color: #ea907a!important;
+    color: white!important;
+    border-color: #ea907a!important;
+}
+
+.p.text-center.col-sm {
+    margin: 0!important;
+}
+
+@media(max-width:576px) {
+    #play {
+        margin-top: 10vh;
+    }
+    .um {
+        background-position: cover;
+        height: 10vh;
+        margin-top: -30vh;
+    }
+    .humor {
+        font-size: 3vh;
+    }
+    div.container {
+        flex-direction: column;
+        width: fit-content;
+    }
+    div.row {
+        flex-direction: column;
+    }
+    div.um {
+        margin-bottom: 50vh;
+        margin-top: 0;
+    }
+    #iframe {
+        width: 100%;
+    }
+    body {
+        background-image: cover;
+
+    }
+    .home{
+        margin-bottom: 15vh;
+    }
+}
+
+#coluna1 {
+    z-index: 1;
+    margin-top: 10%;
+}
+
+#coluna2 {
+    padding: 35px;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.col {
+    margin-left: 3%;
+}
+
+#form1nome {
+    text-align: center;
+}
+
+.img-logo {
+    margin-left: 25%;
+    width: 400px;
+    height: 400px;
+}
+
+.form-row {
+    margin: 0px 0px!important;
+}
+
+.btn {
+    background-color: #ff3333;
+    border-color: #ff3333;
+}
