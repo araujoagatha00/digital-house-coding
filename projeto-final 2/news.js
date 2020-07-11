@@ -15,7 +15,7 @@ fetch(url + 'news/index.js')
                    <div class="card-body">
                     <h5 class="card-title">${element.headline}</h5>
                     <p class="card-text">${element.kicker}</p>
-                    <a href="${element.url}" class="btn btn-primary">${element.featured}</a>
+                    <a href="${element.url}" class="btn btn-outline-danger">${element.featured}</a>
                 </div>
                 </div>
             `;

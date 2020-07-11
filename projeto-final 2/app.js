@@ -54,6 +54,6 @@ if (!query.has("id") && !query.has("nome")) {
     let teste = url.filter(unico => {
         return unico.id == idPlaylist;
     })
-    h2.innerText = `Seja bem vindo, ${nome}`;
+    h2.innerText = `SEJA BEM VINDA(0), ${nome.toUpperCase()}!`;
     playlist.setAttribute("src", teste[0].url);
 }
