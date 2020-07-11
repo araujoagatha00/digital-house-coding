@@ -46,8 +46,13 @@ main {
     text-decoration-style: bold;
 }
 
-footer {
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 10px;
     background-color: gainsboro;
+    padding: 2vh;
 }
 
 .text-center {

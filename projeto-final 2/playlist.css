@@ -13,7 +13,7 @@ header {
 
 body {
     background-image: url("img/HIGH_april-1.jpg");
-    background-size: cover;
+    background-size: 100%;
     object-fit: cover;
 }
 
@@ -44,7 +44,8 @@ main {
     border-radius: 30%;
     justify-content: center;
     align-items: center;
-    margin-top: -35vh;
+    margin-top: -25vh;
+    margin-bottom: 35vh;
 }
 
 .humor {
@@ -57,7 +58,6 @@ main {
 }
 
 .footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     line-height: 10px;
@@ -70,7 +70,8 @@ main {
 }
 
 div.container {
-    margin-bottom: -100h;
+    justify-content: center;
+    padding: -30px;
 }
 
 .row {
@@ -119,6 +120,12 @@ div.container {
     }
     div.um {
         margin-bottom: 50vh;
+    }
+    #iframe {
+        width: 100%;
+    }
+    body {
+        background-image: cover;
     }
 }
 
